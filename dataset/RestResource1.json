@@ -1,0 +1,23 @@
+{
+	"name": "RestResource1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_rest_pbi_generic",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"AdminAPI": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"typeProperties": {
+			"relativeUrl": {
+				"value": "@dataset().AdminAPI",
+				"type": "Expression"
+			}
+		},
+		"schema": []
+	}
+}
