@@ -25,7 +25,8 @@
 				"folderPath": {
 					"value": "@dataset().PathName",
 					"type": "Expression"
-				}
+				},
+				"fileSystem": "datalake"
 			}
 		},
 		"schema": {}
