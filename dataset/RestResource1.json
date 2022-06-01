@@ -12,12 +12,6 @@
 		},
 		"annotations": [],
 		"type": "RestResource",
-		"typeProperties": {
-			"relativeUrl": {
-				"value": "@dataset().AdminAPI",
-				"type": "Expression"
-			}
-		},
 		"schema": []
 	}
 }
