@@ -70,7 +70,7 @@
 						"type": "DatasetReference",
 						"parameters": {
 							"AdminAPI": {
-								"value": "admin/groups?$expand=users, reports, dashboards, datasets, dataflows, workbooks&$filter=(state ne ‘Deleted’)&$top=500",
+								"value": "admin/groups?$expand=users, reports, dashboards, datasets, dataflows, workbooks&$filter=(state ne 'Deleted')&$top=500",
 								"type": "Expression"
 							}
 						}
